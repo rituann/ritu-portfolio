@@ -1,11 +1,11 @@
 <h1 align="center">
-  sagarshah.dev
+  ritu-portfolio
 </h1>
 <p align="center">
   My portfolio website built with <a href="https://nextjs.org" target="_blank">Next.js</a>, <a href="https://tailwindcss.com" target="_blank">Tailwind CSS</a>, <a href="https://www.radix-ui.com" target="_blank">Radix UI</a> and deployed on <a href="https://www.netlify.com/" target="_blank">Vercel</a>.⚡
 </p>
 
-![preview](https://raw.githubusercontent.com/shahsagarm/sagarshah.dev/main/thumbnail.png)
+![preview](https://raw.githubusercontent.com/rituann/ritu-portfolio/main/thumbnail.png)
 
 ## Tech Stack
 
@@ -19,8 +19,8 @@
 ## Running Locally
 
 ```bash
-$ git clone https://github.com/shahsagarm/sagarshah.dev.git
-$ cd sagarshah.dev
+$ git clone https://github.com/rituann/ritu-portfolio.git
+$ cd ritu-portfolio
 $ npm install
 $ npm run dev
 ```
@@ -31,4 +31,4 @@ If you are looking for a figma file, you can find it **[here](https://www.figma.
 
 ## License
 
-Licensed under the [MIT license](https://github.com/shahsagarm/sagarshah.dev/blob/main/LICENSE).
+Licensed under the [MIT license](https://github.com/rituann/ritu-portfolio/blob/main/LICENSE).

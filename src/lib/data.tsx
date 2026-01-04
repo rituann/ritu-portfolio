@@ -42,12 +42,12 @@ import {
 } from '@/lib/types';
 
 export const EXTERNAL_LINKS = {
-  GITHUB: 'https://github.com/shahsagarm',
-  GITHUB_REPO: 'https://github.com/shahsagarm/sagarshah.dev',
-  TWITTER: 'https://twitter.com/shahsagarm',
-  FIGMA: 'https://www.figma.com/@shahsagarm',
-  FIGMA_FILE:
-    'https://www.figma.com/community/file/1262992249991763120/Personal-Portfolio-Website-Template-%7C-Mobile-%26-Desktop',
+  GITHUB: 'https://github.com/rituann',
+  GITHUB_REPO: 'https://github.com/rituann/ritu-portfolio',
+  //TWITTER: 'https://twitter.com/rituann',
+  //FIGMA: 'https://www.figma.com/@rituann',
+  //FIGMA_FILE:
+  //  'https://www.figma.com/community/file/1262992249991763120/Personal-Portfolio-Website-Template-%7C-Mobile-%26-Desktop',
 };
 
 export const NAV_LINKS = [
@@ -72,15 +72,15 @@ export const NAV_LINKS = [
 export const SOCIAL_LINKS = [
   {
     icon: Github,
-    url: 'https://github.com/shahsagarm',
+    url: 'https://github.com/rituann',
   },
   {
     icon: Twitter,
-    url: 'https://twitter.com/shahsagarm',
+    url: 'https://twitter.com/rituann',
   },
   {
     icon: Figma,
-    url: 'https://www.figma.com/@shahsagarm',
+    url: 'https://www.figma.com/@rituann',
   },
 ];
 
