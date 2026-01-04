@@ -1,5 +1,5 @@
-import { Github, Twitter, Figma } from 'lucide-react';
-
+// import { Github, Twitter, Figma, Linkedin } from 'lucide-react';
+import { Github, Linkedin } from 'lucide-react';
 import LogoJavascript from '/public/images/logos/icon-javascript.svg';
 import LogoTypescript from '/public/images/logos/icon-typescript.svg';
 import LogoReact from '/public/images/logos/icon-react.svg';
@@ -14,7 +14,8 @@ import LogoPostgreSQL from '/public/images/logos/icon-postgresql.svg';
 import LogoMongoDB from '/public/images/logos/icon-mongodb.svg';
 import LogoSass from '/public/images/logos/icon-sass.svg';
 import LogoTailwindcss from '/public/images/logos/icon-tailwindcss.svg';
-import LogoFigma from '/public/images/logos/icon-figma.svg';
+// import LogoFigma from '/public/images/logos/icon-figma.svg';
+import LogoLinkedin from '/public/images/logos/icon-linkedin.svg';
 import LogoCypress from '/public/images/logos/icon-cypress.svg';
 import LogoCypressLight from '/public/images/logos/icon-cypress-light.svg';
 import LogoStorybook from '/public/images/logos/icon-storybook.svg';
@@ -38,12 +39,13 @@ import {
   ExperienceDetails,
   ProjectDetails,
   TechDetails,
-  TestimonialDetails,
+  // blah blah TestimonialDetails,
 } from '@/lib/types';
 
 export const EXTERNAL_LINKS = {
   GITHUB: 'https://github.com/rituann',
   GITHUB_REPO: 'https://github.com/rituann/ritu-portfolio',
+  LINKEDIN: 'https://www.linkedin.com/in/rituannroy/'
   //TWITTER: 'https://twitter.com/rituann',
   //FIGMA: 'https://www.figma.com/@rituann',
   //FIGMA_FILE:
@@ -59,10 +61,10 @@ export const NAV_LINKS = [
     label: 'Work',
     href: '#work',
   },
-  {
-    label: 'Testimonials',
-    href: '#testimonials',
-  },
+  // {
+  //   label: 'Testimonials',
+  //   href: '#testimonials',
+  // },
   {
     label: 'Contact',
     href: '#contact',
@@ -74,14 +76,18 @@ export const SOCIAL_LINKS = [
     icon: Github,
     url: 'https://github.com/rituann',
   },
+  // {
+  //   icon: Twitter,
+  //   url: 'https://twitter.com/rituann',
+  // },
   {
-    icon: Twitter,
-    url: 'https://twitter.com/rituann',
+    icon: Linkedin,
+    url: 'https://www.linkedin.com/in/rituannroy',
   },
-  {
-    icon: Figma,
-    url: 'https://www.figma.com/@rituann',
-  },
+  // {
+  //   icon: Figma,
+  //   url: 'https://www.figma.com/@rituann',
+  // },
 ];
 
 export const TECHNOLOGIES: TechDetails[] = [
@@ -148,10 +154,15 @@ export const TECHNOLOGIES: TechDetails[] = [
     url: 'https://tailwindcss.com/',
   },
   {
-    label: 'Figma',
-    logo: LogoFigma,
-    url: 'https://www.figma.com/',
+    label: 'Linkedin',
+    logo: LogoLinkedin,
+    url: 'https://www.linkedin.com/',
   },
+  // {
+  //   label: 'Figma',
+  //   logo: LogoFigma,
+  //   url: 'https://www.figma.com/',
+  // },
   {
     label: 'Cypress',
     logo: LogoCypress,
@@ -266,26 +277,26 @@ export const PROJECTS: ProjectDetails[] = [
   },
 ];
 
-export const TESTIMONIALS: TestimonialDetails[] = [
-  {
-    personName: 'Krisztian Gyuris',
-    personAvatar: AvatarKrisztian,
-    title: 'Founder - inboxgenie.io',
-    testimonial:
-      'Job well done! I am really impressed. He is very very good at what he does:) I would recommend Sagar and will rehire in the future for Frontend development.',
-  },
-  {
-    personName: 'Eugen Esanu',
-    personAvatar: AvatarEugen,
-    title: 'Founder - shosho.design',
-    testimonial:
-      'Great guy, highly recommended for any COMPLEX front-end development job! His skills are top-notch and he will be an amazing addition to any team.',
-  },
-  {
-    personName: 'Joe Matkin',
-    personAvatar: AvatarDummy,
-    title: 'Freelancer',
-    testimonial:
-      'Sagar was extremely easy and pleasant to work with and he truly cares about the project being a success. Sagar has a high level of knowledge and was able to work on my MERN stack application without any issues.',
-  },
-];
+// export const TESTIMONIALS: TestimonialDetails[] = [
+//   {
+//     personName: 'Krisztian Gyuris',
+//     personAvatar: AvatarKrisztian,
+//     title: 'Founder - inboxgenie.io',
+//     testimonial:
+//       'Job well done! I am really impressed. He is very very good at what he does:) I would recommend Ritu and will rehire in the future for Frontend development.',
+//   },
+//   {
+//     personName: 'Eugen Esanu',
+//     personAvatar: AvatarEugen,
+//     title: 'Founder - shosho.design',
+//     testimonial:
+//       'Great guy, highly recommended for any COMPLEX front-end development job! His skills are top-notch and he will be an amazing addition to any team.',
+//   },
+//   {
+//     personName: 'Joe Matkin',
+//     personAvatar: AvatarDummy,
+//     title: 'Freelancer',
+//     testimonial:
+//       'Ritu was extremely easy and pleasant to work with and he truly cares about the project being a success. Ritu has a high level of knowledge and was able to work on my MERN stack application without any issues.',
+//   },
+// ];
