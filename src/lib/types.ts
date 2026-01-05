@@ -18,7 +18,7 @@ export type ExperienceDetails = {
   logo: string | StaticImageData;
   darkModeLogo?: string | StaticImageData;
   logoAlt: string;
-  company: string;
+  company?: string;
   position: string;
   currentlyWorkHere?: boolean;
   startDate: Date;
@@ -39,6 +39,7 @@ export type EducationDetails = {
   darkModeLogo?: string | StaticImageData;
   logoAlt: string;
   college: string;
+  location: string;
   degree: string;
   currentlyWorkHere?: boolean;
   startDate: Date;

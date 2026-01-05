@@ -1,25 +1,33 @@
 // import { Github, Twitter, Figma, Linkedin } from 'lucide-react';
 import { Github, Linkedin } from 'lucide-react';
-import LogoJavascript from '/public/images/logos/icon-javascript.svg';
-import LogoTypescript from '/public/images/logos/icon-typescript.svg';
-import LogoReact from '/public/images/logos/icon-react.svg';
-import LogoNextjs from '/public/images/logos/icon-nextjs.svg';
-import LogoNodejs from '/public/images/logos/icon-nodejs.svg';
-import LogoExpress from '/public/images/logos/icon-express.svg';
-import LogoExpressLight from '/public/images/logos/icon-express-light.svg';
-import LogoNest from '/public/images/logos/icon-nest.svg';
-import LogoSocket from '/public/images/logos/icon-socket.svg';
-import LogoSocketLight from '/public/images/logos/icon-socket-light.svg';
-import LogoPostgreSQL from '/public/images/logos/icon-postgresql.svg';
-import LogoMongoDB from '/public/images/logos/icon-mongodb.svg';
-import LogoSass from '/public/images/logos/icon-sass.svg';
-import LogoTailwindcss from '/public/images/logos/icon-tailwindcss.svg';
+// import LogoJavascript from '/public/images/logos/icon-javascript.svg';
+// import LogoTypescript from '/public/images/logos/icon-typescript.svg';
+// import LogoReact from '/public/images/logos/icon-react.svg';
+// import LogoNextjs from '/public/images/logos/icon-nextjs.svg';
+// import LogoNodejs from '/public/images/logos/icon-nodejs.svg';
+// import LogoExpress from '/public/images/logos/icon-express.svg';
+// import LogoExpressLight from '/public/images/logos/icon-express-light.svg';
+// import LogoNest from '/public/images/logos/icon-nest.svg';
+// import LogoSocket from '/public/images/logos/icon-socket.svg';
+// import LogoSocketLight from '/public/images/logos/icon-socket-light.svg';
+// import LogoPostgreSQL from '/public/images/logos/icon-postgresql.svg';
+// import LogoMongoDB from '/public/images/logos/icon-mongodb.svg';
+// import LogoSass from '/public/images/logos/icon-sass.svg';
+// import LogoTailwindcss from '/public/images/logos/icon-tailwindcss.svg';
 // import LogoFigma from '/public/images/logos/icon-figma.svg';
-import LogoLinkedin from '/public/images/logos/icon-linkedin.svg';
-import LogoCypress from '/public/images/logos/icon-cypress.svg';
-import LogoCypressLight from '/public/images/logos/icon-cypress-light.svg';
-import LogoStorybook from '/public/images/logos/icon-storybook.svg';
+// import LogoLinkedin from '/public/images/logos/icon-linkedin.svg';
+// import LogoCypress from '/public/images/logos/icon-cypress.svg';
+// import LogoCypressLight from '/public/images/logos/icon-cypress-light.svg';
+// import LogoStorybook from '/public/images/logos/icon-storybook.svg';
 import LogoGit from '/public/images/logos/icon-git.svg';
+import LogoPmp from '/public/images/logos/certifications/pmp.png';
+import LogoPmicapm from '/public/images/logos/certifications/pmicapm.png';
+import LogoPmiacp from '/public/images/logos/certifications/pmiacp.png';
+import LogoAwssaa from '/public/images/logos/certifications/awssaa.png';
+import LogoAwscp from '/public/images/logos/certifications/awscp.png';
+import LogoCspo from '/public/images/logos/certifications/cspo.png';
+import LogoCsm from '/public/images/logos/certifications/csm.png';
+import LogoGoogleadvanceddata from '/public/images/logos/certifications/googleadvanceddata.png';
 
 // import LogoUpwork from '/public/images/logos/logo-upwork.svg';
 // import LogoGreenApex from '/public/images/logos/logo-greenapex.svg';
@@ -37,7 +45,7 @@ import LogoInsead from '/public/images/logos/INSEAD-long-logo.png';
 import LogoNitc from '/public/images/logo/nitc-logo.svg';
 
 import ProjectBridgevantage from '/public/images/project-bridgevantage.png';
-import Projectparitypulse from '/public/images/project-paritypulse.png';
+import ProjectParitypulse from '/public/images/project-paritypulse.png';
 
 
 // import ProjectFiskil from '/public/images/project-fiskil.png';
@@ -49,6 +57,8 @@ import Projectparitypulse from '/public/images/project-paritypulse.png';
 // import AvatarDummy from '/public/images/avatar-dummy.svg';
 
 import {
+  CertificationDetails,
+  EducationDetails,
   ExperienceDetails,
   ProjectDetails,
   TechDetails,
@@ -195,11 +205,56 @@ export const TECHNOLOGIES: TechDetails[] = [
 ];
 
 
+export const CERTIFICATIONS: CertificationDetails[] = [
+  {
+    label: 'PMP',
+    logo: LogoPmp,
+    url: 'https://www.credly.com/badges/bba611a7-61d7-4489-ab70-9affd1cc8d54/linked_in_profile',
+  },
+  {
+    label: 'PMI-CAPM',
+    logo: LogoPmicapm,
+    url: 'https://www.credly.com/badges/201fcc8d-e3e6-4b98-8682-f60c36f2ebed/public_url',
+  },
+  {
+    label: 'PMI-ACP',
+    logo: LogoPmiacp,
+    url: 'https://www.credly.com/badges/e0b41527-ebff-4bfd-a360-8da75b59c7cb/public_url',
+  },
+  {
+    label: 'CSPO',
+    logo: LogoCspo,
+    url: 'https://bcert.me/bc/html/show-badge.html?b=coquhqis',
+  },
+  {
+    label: 'CSM',
+    logo: LogoCsm,
+    url: 'https://bcert.me/bc/html/show-badge.html?b=esfntgjs',
+  },
+  {
+    label: 'AWS Solutions Architect - Associate',
+    logo: LogoAwssaa,
+    // darkModeLogo: LogoExpressLight,
+    url: 'https://www.credly.com/badges/50effa54-08a6-477d-8a23-ccf8df80f88a/linked_in_profile',
+  },
+  {
+    label: 'AWS Cloud Practitioner',
+    logo: LogoAwscp,
+    url: 'https://www.credly.com/badges/257c1e27-c47a-48a9-9925-9e6aa3430b27/public_url',
+  },
+  {
+    label: 'Google Advanced Data Analytics',
+    logo: LogoGoogleadvanceddata,
+    // darkModeLogo: LogoSocketLight,
+    url: 'https://www.coursera.org/account/accomplishments/specialization/D67Y9V7KMV9S',
+  },
+];
+
+
 export const EXPERIENCES: ExperienceDetails[] = [
   {
     logo: LogoAmazon,
     logoAlt: 'Amazon logo',
-    company: 'Amazon',
     position: 'Sr. Product Manager (MBA Internship)',
     startDate: new Date(2025, 6),
     endDate: new Date(2025, 8),
@@ -219,7 +274,6 @@ export const EXPERIENCES: ExperienceDetails[] = [
     logo: LogoBfc,
     // darkModeLogo: LogoGreenApexLight,
     logoAlt: 'BFC logo',
-    company: 'BFC Group',
     position: 'Manager - IT Projects',
     startDate: new Date(2023, 2),
     endDate: new Date(2024, 11),
@@ -245,9 +299,7 @@ export const EXPERIENCES: ExperienceDetails[] = [
   },
   {
     logo: LogoCisco,
-    // darkModeLogo: LogoDotnpixelLight,
     logoAlt: 'Cisco logo',
-    company: 'Cisco Systems',
     position: 'Software Engineer',
     startDate: new Date(2021, 8),
     endDate: new Date(2023, 1),
@@ -258,7 +310,15 @@ export const EXPERIENCES: ExperienceDetails[] = [
       '• Improved sprint velocity by 25% through delivery process improvements and peer programming ',
       '• Reduced critical issue resolution cycles to one week by introducing structured triage and daily coordination, ',
       'resolving 40+ customer-impacting defects ',
-      'Software Engineer Intern                                                                                                                                            ',
+   ],
+  },
+  {
+    logo: LogoCisco,
+    logoAlt: 'Cisco logo',
+    position: 'Software Engineer Intern',
+    startDate: new Date(2020, 6),
+    endDate: new Date(2020, 7),
+    summary: [
       '• Improved malware detection performance by 10% and increased test coverage by 20% ',
       '• Selected as one of five Global Interns to represent the cohort at Cisco’s Annual Intern Meet with the CEO',
     ],
@@ -303,11 +363,33 @@ export const EXPERIENCES: ExperienceDetails[] = [
 //   },
 // ];
 
+
+INSEAD                                                                                                                              
+MBA Class of December 2025                                                                                                                                                         
+
+MBA Consulting Assignments undertaken:  
+Strategy Consultant, Moledao                                                                                                          
+Nov 2025 
+Moledao is a Web3 & Blockchain community, operating under Bybit, one of the world’s top cryptocurrency exchanges 
+• Conducted strategic research on tokenomics, incentive engineering, governance models, user segmentation, 
+behavioural analytics, emerging market trends, competitive intelligence, and sustainability levers for Moledao’s 
+market expansion 
+External Consultant, Optimal Greening Foundation                                                                      
+NGO based in Nigeria, delivering clean water, sanitation, and renewable energy solutions                                                              
+Jun 2025                                                                                                                  
+• Built fundraising pipeline and enabled data-driven donor reporting for clean water access to 5,000+ people by 
+designing an impact measurement framework for the flagship WASH initiative across two underserved communities  
+
+
+
+
+
+
 export const PROJECTS: ProjectDetails[] = [
   {
-    name: 'Wingie',
+    name: 'BridgeVantage',
     description:
-      'A platform for comparing and finding affordable flights, as well as booking and purchasing tickets safely and easily in a few simple clicks.',
+      'blah blah.',
     url: 'https://www.wingie.com',
     previewImage: ProjectWingie,
     technologies: [
@@ -322,7 +404,7 @@ export const PROJECTS: ProjectDetails[] = [
     ],
   },
   {
-    name: 'Fiskil',
+    name: 'ParityPulse',
     description:
       'A platform for accessing real-time open banking and energy data to help you grow your business, backed with scalable back-end infrastructure.',
     url: 'https://fiskil.com.au',
@@ -344,7 +426,7 @@ export const PROJECTS: ProjectDetails[] = [
     ],
   },
   {
-    name: 'Pepehousing',
+    name: 'Factograde',
     description:
       'A platform for renting a flat or room in Poland. You may browse hundreds of verified deals, contact the vendor, and pay online in a simple and secure manner.',
     url: 'https://pepehousing.com',
@@ -384,3 +466,38 @@ export const PROJECTS: ProjectDetails[] = [
 //       'Ritu was extremely easy and pleasant to work with and he truly cares about the project being a success. Ritu has a high level of knowledge and was able to work on my MERN stack application without any issues.',
 //   },
 // ];
+
+export const EDUCATION: EducationDetails[] = [
+  {
+    logo: LogoInsead,
+    logoAlt: 'INSEAD logo',
+    college: 'INSEAD Business School',
+    location: 'France & Singapore',
+    degree: 'MBA Class of December 2025',
+    startDate: new Date(2025, 1),
+    endDate: new Date(2025, 12),
+    // currentlyWorkHere: true,
+    summary: [
+
+      '• President: Tech Media and Telecom (TMT) Club, Founder and Lead, TMT Tech Talks global webinar series',               
+      '• Class Career Representative, VP: Artificial General Intelligence (AGI) Interest Group', 
+      '• Selected in Women Impact Network (Kearney Middle East), Semi-finalist at INSEAD Roland Berger Case Competition, OpenSpace VC Mentorship (Singapore)', 
+      '• Recipient: INSEAD Judith Connelly Endowed Scholarship for Outstanding Women ',
+    ],
+  },
+  {
+    logo: LogoInsead,
+    logoAlt: 'NITC logo',
+    college: 'National Institute of Technology Calicut (NITC)',
+    location: 'India',
+    degree: 'BTech Electronics and Communication Engineering',
+    startDate: new Date(2017, 7),
+    endDate: new Date(2021, 6),
+    // currentlyWorkHere: true,
+    summary: [
+      '• CGPA 9.47/10, University Top 1%, All India Rank 8768 in 2017 Joint Entrance Exam among 1.3 million candidates',
+      '• Spearheaded efforts during the COVID-19 pandemic, coordinating academic and recruitment drives among 1,000+ students, faculty, and the career department as the elected college representative',
+      '• AI Research Publication: Developed a new LSTM based automated natural language processing (NLP) text scoring system, research presented in 2022 IEEE International Conference on Artificial Intelligence (IAICT), Indonesia',
+    ],
+  },
+];

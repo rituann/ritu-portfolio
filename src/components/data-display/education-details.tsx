@@ -1,24 +1,25 @@
 import Typography from '@/components/general/typography';
 import ImageWrapper from '@/components/data-display/image-wrapper';
 import Card from '@/components/layout/card';
-import { ExperienceDetails as ExperienceDetailsProps } from '@/lib/types';
+import { EducationDetails as EducationDetailsProps } from '@/lib/types';
 
 const dateFormatOptions: Intl.DateTimeFormatOptions = {
   year: 'numeric',
   month: 'short',
 };
 
-const ExperienceDetails = ({
+const EducationDetails = ({
   logo,
   darkModeLogo,
   logoAlt,
-  company,
-  position,
+  college,
+  location,
+  degree,
   currentlyWorkHere,
   startDate,
   endDate,
   summary,
-}: ExperienceDetailsProps) => {
+}: EducationDetailsProps) => {
   return (
     <Card className="mx-auto flex w-full max-w-4xl flex-col justify-between gap-4 p-8 md:flex-row md:gap-8">
       <div className="max-md:order-1 md:w-1/4">
@@ -31,10 +32,10 @@ const ExperienceDetails = ({
       </div>
       <div className="flex flex-col gap-4 max-md:order-3 md:w-2/4">
         <Typography variant="subtitle" className="font-semibold text-gray-900">
-          {company}
+          {college}
         </Typography>
         <Typography variant="subtitle" className="font-semibold text-gray-900">
-          {position}
+          {degree}
         </Typography>
         <ul className="flex list-disc flex-col gap-2 md:gap-1">
           {summary?.map((sentence, index) => (
@@ -58,9 +59,12 @@ const ExperienceDetails = ({
               )
             : 'NA'}
         </Typography>
+        <Typography variant="subtitle" className="font-semibold text-gray-900">
+          {location}
+        </Typography>
       </div>
     </Card>
   );
 };
 
-export default ExperienceDetails;
+export default EducationDetails;
