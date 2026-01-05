@@ -19,7 +19,7 @@ const Footer = () => {
           >
             Designed
           </Link> */}
-          <Link
+          {/* <Link
             noCustomization
             externalLink
             withUnderline
@@ -27,7 +27,7 @@ const Footer = () => {
           >
             Designed
           </Link>
-          &nbsp;and&nbsp;
+          &nbsp;and&nbsp; */}
           <Link
             noCustomization
             externalLink

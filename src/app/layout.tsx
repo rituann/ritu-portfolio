@@ -9,9 +9,9 @@ import Footer from '@/components/layout/footer';
 
 const inter = Inter({ subsets: ['latin'] });
 
-const title = 'Sagar Shah | Full Stack Developer From Ahmedabad, India.';
+const title = 'Ritu Ann Roy - Product Strategist';
 const description =
-  'A self-proclaimed designer who specializes in full stack development (React.js & Node.js), from Ahmedabad, India.';
+  'Specializes in transforming ideas into user-centric digital products that drive business growth and enhance user experiences.';
 const url = 'https://ritu-portfolio';
 
 export const metadata: Metadata = {
@@ -24,7 +24,7 @@ export const metadata: Metadata = {
     'React Developer',
     'Next.js Developer',
   ],
-  creator: 'Sagar Shah',
+  creator: 'Ritu Ann Roy',
   themeColor: [
     { media: '(prefers-color-scheme: light)', color: 'white' },
     { media: '(prefers-color-scheme: dark)', color: 'black' },
@@ -37,7 +37,7 @@ export const metadata: Metadata = {
     siteName: title,
     images: [
       {
-        url: '/images/open-graph-sagar.png',
+        url: '/images/open-graph-ritu.png',
       },
     ],
   },
@@ -46,7 +46,7 @@ export const metadata: Metadata = {
     title,
     description,
     creator: '@rituann',
-    images: '/images/open-graph-sagar.png',
+    images: '/images/open-graph-ritu.png',
   },
   icons: {
     icon: '/favicon.ico',

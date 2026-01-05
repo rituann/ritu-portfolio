@@ -7,10 +7,18 @@ export type TechDetails = {
   url: string;
 };
 
+export type CertificationDetails = {
+  logo: string | StaticImageData;
+  darkModeLogo?: string | StaticImageData;
+  label: string;
+  url: string;
+};
+
 export type ExperienceDetails = {
   logo: string | StaticImageData;
   darkModeLogo?: string | StaticImageData;
   logoAlt: string;
+  company: string;
   position: string;
   currentlyWorkHere?: boolean;
   startDate: Date;
@@ -24,6 +32,18 @@ export type ProjectDetails = {
   url: string;
   previewImage: string | StaticImageData;
   technologies: string[];
+};
+
+export type EducationDetails = {
+  logo: string | StaticImageData;
+  darkModeLogo?: string | StaticImageData;
+  logoAlt: string;
+  college: string;
+  degree: string;
+  currentlyWorkHere?: boolean;
+  startDate: Date;
+  endDate?: Date;
+  summary: string[];
 };
 
 // export type TestimonialDetails = {

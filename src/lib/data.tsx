@@ -21,19 +21,32 @@ import LogoCypressLight from '/public/images/logos/icon-cypress-light.svg';
 import LogoStorybook from '/public/images/logos/icon-storybook.svg';
 import LogoGit from '/public/images/logos/icon-git.svg';
 
-import LogoUpwork from '/public/images/logos/logo-upwork.svg';
-import LogoGreenApex from '/public/images/logos/logo-greenapex.svg';
-import LogoGreenApexLight from '/public/images/logos/logo-greenapex-light.svg';
-import LogoDotnpixel from '/public/images/logos/logo-dotnpixel.svg';
-import LogoDotnpixelLight from '/public/images/logos/logo-dotnpixel-light.svg';
+// import LogoUpwork from '/public/images/logos/logo-upwork.svg';
+// import LogoGreenApex from '/public/images/logos/logo-greenapex.svg';
+// import LogoGreenApexLight from '/public/images/logos/logo-greenapex-light.svg';
+// import LogoDotnpixel from '/public/images/logos/logo-dotnpixel.svg';
+// import LogoDotnpixelLight from '/public/images/logos/logo-dotnpixel-light.svg';
 
-import ProjectFiskil from '/public/images/project-fiskil.png';
-import ProjectWingie from '/public/images/project-wingie.png';
-import ProjectPepehousing from '/public/images/project-pepehousing.png';
+import LogoAmazon from '/public/images/logos/amazon-logo.jpg';
+import LogoBfc from '/public/images/logos/bfc-logo.png';
+import LogoCisco from '/public/images/logos/cisco-logo.png';
+import LogoOptimalgreening from '/public/images/logos/optimalgreening-logo.jpg';
+import LogoMoledao from '/public/images/logo/moledao-logo.png';
 
-import AvatarKrisztian from '/public/images/avatar-krisztian.png';
-import AvatarEugen from '/public/images/avatar-eugen.png';
-import AvatarDummy from '/public/images/avatar-dummy.svg';
+import LogoInsead from '/public/images/logos/INSEAD-long-logo.png';
+import LogoNitc from '/public/images/logo/nitc-logo.svg';
+
+import ProjectBridgevantage from '/public/images/project-bridgevantage.png';
+import Projectparitypulse from '/public/images/project-paritypulse.png';
+
+
+// import ProjectFiskil from '/public/images/project-fiskil.png';
+// import ProjectWingie from '/public/images/project-wingie.png';
+// import ProjectPepehousing from '/public/images/project-pepehousing.png';
+
+// import AvatarKrisztian from '/public/images/avatar-krisztian.png';
+// import AvatarEugen from '/public/images/avatar-eugen.png';
+// import AvatarDummy from '/public/images/avatar-dummy.svg';
 
 import {
   ExperienceDetails,
@@ -181,43 +194,114 @@ export const TECHNOLOGIES: TechDetails[] = [
   },
 ];
 
+
 export const EXPERIENCES: ExperienceDetails[] = [
   {
-    logo: LogoUpwork,
-    logoAlt: 'Upwork logo',
-    position: 'Independent Freelancer',
-    startDate: new Date(2021, 10),
-    currentlyWorkHere: true,
+    logo: LogoAmazon,
+    logoAlt: 'Amazon logo',
+    company: 'Amazon',
+    position: 'Sr. Product Manager (MBA Internship)',
+    startDate: new Date(2025, 6),
+    endDate: new Date(2025, 8),
+    // currentlyWorkHere: true,
     summary: [
-      'Worked for various clients like Fiskil, Shosho, Crowe MacKay LLP.',
-      'Worked with a variety of technologies, including React, Next.js, Typescript, Express.js, PostgreSQL, Tailwindcss, Mui, Firebase, Storybook, Cypress, and others.',
+      'Owned operational strategy & global supply chain partner expansion for Amazon Haul, Amazon’s latest ultra-low cost marketplace, scaling selection, sourcing, and launch readiness across the UK and EU with direct fulfilment from China. ',
+      'Product, Growth & Strategy',
+      '• Owned UK expansion strategy and direct partner integrations, contributing to $200M+ in projected gross merchandise sales through category diversification and large-scale retail partnerships. ',
+      '• Defined EU selection and sourcing strategy for direct fulfilment from China, including supplier onboarding criteria, assortment prioritization, and category-level operating models ',
+      '• Developed customer personas, value hypotheses, and early GTM signals for Gen-Z value retail using internal data and GenAI-enabled capabilities ',
+      'Execution & Cross-Functional Leadership ', 
+      '• Partnered with Operations, Technology, Legal, Fashion, and Marketing teams to align commercial terms, regulatory readiness, and launch sequencing across EU markets ',
+      '• Owned roadmap dependencies, launch requirements, and success metrics across multiple senior stakeholders',
     ],
   },
   {
-    logo: LogoGreenApex,
-    darkModeLogo: LogoGreenApexLight,
-    logoAlt: 'Greenapex logo',
-    position: 'Team Lead',
-    startDate: new Date(2017, 6),
-    endDate: new Date(2021, 9),
+    logo: LogoBfc,
+    // darkModeLogo: LogoGreenApexLight,
+    logoAlt: 'BFC logo',
+    company: 'BFC Group',
+    position: 'Manager - IT Projects',
+    startDate: new Date(2023, 2),
+    endDate: new Date(2024, 11),
     summary: [
-      'Acted as team lead in different projects.',
-      'Brainstormed new ideas & gathered requirements for internal projects.',
-      'Designed architecture of different projects (frontend + backend).',
-      'Worked on enterprise-level projects for a variety of clients.',
-      'Handled sprint planning & task distribution.',
+      'Largest forex firm in Bahrain, acquired by Al Ansari Exchange (UAE) in 2025. Owned platform modernization and  multi-market agile product delivery for mission-critical transaction systems across Bahrain, Kuwait, and India in a highly regulated fintech environment.',
+      'Product & Strategic Initiatives ',
+      '• Led accelerated integration of a currency exchange platform for Kuwaiti airline Jazeera Airways in 6 weeks (25% ',
+      'ahead of plan), owning partner coordination and FX customer journey integration across booking and post-booking ',
+      'flows, unlocking a new B2B airline revenue channel. ',
+      '• Owned phased rollout of branch-level transaction platforms across three countries, reducing average customer ',
+      'wait times by 30% ',
+      '• Drove 67% improvement in production release cadence by standardizing product delivery and deployment ',
+      'processes across regions ',
+      '• Optimized core transaction flows, reducing backend processing and savings execution time by 70% ',
+      'Operational Resilience & Risk ',
+      '• Led a board-visible data migration initiative, achieving 80% infrastructure cost savings through database and storage optimization ',
+      '• Eliminated customer-visible downtime during peak salary disbursement windows through cloud scalability planning, traffic management, and release readiness ',
+      'People, Process & Stakeholder Leadership ',
+      '• Built and led a 20-member cross-functional team, improving same-day issue resolution by 80% ',
+      '• Drove organization-wide adoption of Agile scrum practices, reducing meeting overhead by 75% ',
+      '• Served as executive liaison with regulators and partners including Benefit, PACI (Kuwait), Rateb, and IGA (Bahrain) ',
     ],
   },
   {
-    logo: LogoDotnpixel,
-    darkModeLogo: LogoDotnpixelLight,
-    logoAlt: 'Dotnpixel logo',
-    position: 'Full Stack Developer',
-    startDate: new Date(2015, 11),
-    endDate: new Date(2017, 4),
-    summary: ['Worked as a full stack developer (React / Laravel).'],
+    logo: LogoCisco,
+    // darkModeLogo: LogoDotnpixelLight,
+    logoAlt: 'Cisco logo',
+    company: 'Cisco Systems',
+    position: 'Software Engineer',
+    startDate: new Date(2021, 8),
+    endDate: new Date(2023, 1),
+    summary: [
+      'Software engineer on cloud-native firewall and security intelligence products, building scalable and highly reliable security platforms for enterprise customers.',
+      'Designed and shipped cloud-based security intelligence components incorporating machine learning, improving intrusion detection effectiveness by 40%. ',
+      '• Promoted to Scrum Master within four months, leading Agile execution for distributed engineering teams across the US and India ',
+      '• Improved sprint velocity by 25% through delivery process improvements and peer programming ',
+      '• Reduced critical issue resolution cycles to one week by introducing structured triage and daily coordination, ',
+      'resolving 40+ customer-impacting defects ',
+      'Software Engineer Intern                                                                                                                                            ',
+      '• Improved malware detection performance by 10% and increased test coverage by 20% ',
+      '• Selected as one of five Global Interns to represent the cohort at Cisco’s Annual Intern Meet with the CEO',
+    ],
   },
 ];
+
+// export const EXPERIENCES: ExperienceDetails[] = [
+//   {
+//     logo: LogoUpwork,
+//     logoAlt: 'Upwork logo',
+//     position: 'Independent Freelancer',
+//     startDate: new Date(2021, 10),
+//     currentlyWorkHere: true,
+//     summary: [
+//       'Worked for various clients like Fiskil, Shosho, Crowe MacKay LLP.',
+//       'Worked with a variety of technologies, including React, Next.js, Typescript, Express.js, PostgreSQL, Tailwindcss, Mui, Firebase, Storybook, Cypress, and others.',
+//     ],
+//   },
+//   {
+//     logo: LogoGreenApex,
+//     darkModeLogo: LogoGreenApexLight,
+//     logoAlt: 'Greenapex logo',
+//     position: 'Team Lead',
+//     startDate: new Date(2017, 6),
+//     endDate: new Date(2021, 9),
+//     summary: [
+//       'Acted as team lead in different projects.',
+//       'Brainstormed new ideas & gathered requirements for internal projects.',
+//       'Designed architecture of different projects (frontend + backend).',
+//       'Worked on enterprise-level projects for a variety of clients.',
+//       'Handled sprint planning & task distribution.',
+//     ],
+//   },
+//   {
+//     logo: LogoDotnpixel,
+//     darkModeLogo: LogoDotnpixelLight,
+//     logoAlt: 'Dotnpixel logo',
+//     position: 'Full Stack Developer',
+//     startDate: new Date(2015, 11),
+//     endDate: new Date(2017, 4),
+//     summary: ['Worked as a full stack developer (React / Laravel).'],
+//   },
+// ];
 
 export const PROJECTS: ProjectDetails[] = [
   {
