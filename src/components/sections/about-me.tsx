@@ -34,7 +34,7 @@ const AboutMeSection = () => {
             About Me
           </Typography>
           <Typography>
-            blah blah.
+            Senior Product Manager | INSEAD MBA | Ex-Amazon & Cisco Engineer
             {/* I&apos;m a passionate,{' '}
             <Link
               noCustomization
@@ -50,7 +50,9 @@ const AboutMeSection = () => {
             writing clear, readable, highly performant code matters to me. */}
           </Typography>
           <Typography>
-            blah blah blah.
+            I build and scale high-traffic fintech and e-commerce platforms. 
+            From designing security intelligence at Cisco to driving new growth at Amazon, 
+            I bridge the gap between complex engineering and global business strategy.
             {/* I began my journey as a web developer in 2015, and since then,
             I&apos;ve continued to grow and evolve as a developer, taking on new
             challenges and learning the latest technologies along the way. Now,
@@ -60,16 +62,28 @@ const AboutMeSection = () => {
             Tailwindcss, Supabase and much more. */}
           </Typography>
           <Typography>
-            blah blah.
+            I am a strategic product operator with a foundation in Machine Learning 
+            and Cybersecurity software engineering. With an MBA from INSEAD, 
+            I specialize in applying AI-enabled insights to product strategy 
+            and agile execution at scale.
+            
+            My track record includes: * Scaling Fintech: Leading platform modernization
+             for BFC Group, reducing backend processing time by 70%. 
+             * Market Expansion: Owning UK/EU expansion strategy for
+              Amazon Haul, managing complex global supply chain partner
+               integrations. * Engineering Roots: Shipping cloud-native
+                security components at Cisco that improved intrusion 
+                detection by 40%.
+            I thrive at the intersection of regulated markets, 
+            distributed systems architecture, and customer-centric 
+            growth.
             {/* I am very much a progressive thinker and enjoy working on products
             end to end, from ideation all the way to development. */}
           </Typography>
           <Typography>
-            blah blah. You can follow me on 
-            {/* When I&apos;m not in full-on developer mode, you can find me
-            hovering around on twitter or on indie hacker, witnessing the
-            journey of early startups or enjoying some free time. You can follow
-            me on{' '} */}
+            When I&apos;m not in strategy mode, you can find me
+            anchoring events or learning a new song on ukulele. You can follow
+            me on{' '}
             <Link
               noCustomization
               externalLink
@@ -99,10 +113,10 @@ const AboutMeSection = () => {
               </Typography>
               <Typography component="li">Full time product strategist</Typography>
             </ul>
-            <ul className="flex list-inside list-disc flex-col gap-2">
+            {/* <ul className="flex list-inside list-disc flex-col gap-2">
               <Typography component="li">Avid learner</Typography>
               <Typography component="li">Aspiring cartwheeler</Typography>
-            </ul>
+            </ul> */}
           </div>
           <Typography>
             {/* One last thing, I&apos;m available for freelance work, so feel free
